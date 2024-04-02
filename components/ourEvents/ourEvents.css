@@ -1,0 +1,206 @@
+.our__events .wrapper {
+  overflow: hidden;
+  padding: 62px 0 105px 0;
+}
+
+.our__events {
+  background-image: url("./components/ourEvents/images/events-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.left-events__big {
+  background-image: url("./components/ourEvents/images/big-event.png");
+  background-repeat: no-repeat;
+  min-width: 663px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  height: 555px;
+  padding: 20px 0 13px 0;
+  margin-bottom: 28px;
+}
+
+.events__title {
+  font-size: clamp(24px, 5vw, 48px);
+  text-transform: uppercase;
+  text-align: center;
+  color: #ababab;
+  margin-bottom: 94px;
+}
+
+.events {
+  display: flex;
+  position: relative;
+  padding-bottom: 28px;
+}
+
+.left__events {
+  margin-right: 30px;
+}
+
+.left-events__main-content {
+  position: relative;
+  padding: 0 15px 10px 45px;
+  font-size: clamp(18px, 5vw, 27px);
+}
+
+.big-events__line {
+  content: "";
+  max-width: 459px;
+  height: 1px;
+  background-color: #d33a2a;
+}
+
+.big-events__text {
+  padding: 20px 15px 0 45px;
+  font-size: clamp(14px, 5vw, 22px);
+}
+
+.big-events__date {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.events-slider {
+  overflow: hidden;
+}
+
+.events-slider__item {
+  display: flex;
+  flex-direction: column;
+  gap: 83px;
+  max-width: 417px;
+}
+
+.right__event {
+  background-image: url("./components/ourEvents/images/border.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px 8px 20px 20px;
+  position: relative;
+  height: 240px;
+  max-width: 417px;
+}
+
+.right-events__image {
+  background-image: url("./components/ourEvents/images/event.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.right-events__date {
+  font-size: clamp(16px, 5vw, 18px);
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.right-events__title {
+  font-size: clamp(18px, 5vw, 22px);
+  margin-bottom: 8px;
+}
+
+.right-events__text {
+  font-size: clamp(14px, 5vw, 16px);
+  margin-top: 15px;
+}
+
+.right-events__line {
+  content: "";
+  max-width: 397px;
+  height: 1px;
+  background-color: #d33a2a;
+}
+
+.slider-right__events.splide {
+  position: static;
+}
+
+.slider-right__events .splide__arrow--next {
+  right: 0;
+}
+
+.slider-right__events .splide__pagination {
+  gap: 7px;
+  display: flex;
+  justify-content: unset;
+  right: 12rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 11%;
+  left: auto;
+}
+
+.slider-right__events .splide__pagination__page {
+  background: unset;
+  background-image: url("./components/ourEvents/images/border-dot.svg");
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 21px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: unset;
+}
+.slider-right__events .splide__pagination__page.is-active::after {
+  content: "";
+  background-image: url("./components/ourEvents/images/dot.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 11px;
+  height: 11px;
+}
+
+.left-events__all-events {
+  background-image: url("./components/ourEvents/images/bg-button.svg");
+  background-repeat: no-repeat;
+  font-size: clamp(18px, 5vw, 28px);
+  color: #ffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+  height: 55px;
+}
+
+.slider-right__events .splide__pagination__page.is-active {
+  transform: none;
+}
+
+.slider-right__events .splide__arrows {
+  position: absolute;
+  right: 0;
+  bottom: 4.5rem;
+  left: auto;
+}
+.slider-right__events .splide__arrow {
+  transform: unset;
+}
+
+.slider-right__events .splide__arrow--prev {
+  background-image: url("./../../components/gallery/images/arrow-prev.svg");
+  background-repeat: no-repeat;
+  width: 2.5rem;
+  left: -29rem;
+  height: 3.5rem;
+  background-position: center;
+}
+
+.slider-right__events .splide__arrow--next {
+  background-image: url("./../../components/gallery/images/arrow-next.svg");
+  background-repeat: no-repeat;
+  width: 2.5rem;
+  height: 3.5rem;
+  background-position: center;
+}
+.coaching-splide__arrow {
+  position: absolute;
+  height: 100%;
+}

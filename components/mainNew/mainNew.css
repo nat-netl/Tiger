@@ -1,0 +1,40 @@
+.main-new {
+  padding: 86px 0 45px 0;
+}
+
+.new-wrapper {
+  display: flex;
+  gap: 68px;
+}
+
+.left-new__image {
+  border-radius: 5px;
+}
+
+.right-new__tags {
+  display: flex;
+  gap: 23px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.tag-right__tag {
+  font-size: 14px;
+}
+
+.tag-right__tag:nth-child(1) {
+  text-transform: uppercase;
+  color: #c31815;
+}
+
+.right-new__title {
+  font-size: clamp(22px, 5vw, 36px);
+  margin-bottom: 47px;
+}
+
+.right-new__text {
+  color: #d2d2d2;
+  font-weight: bold;
+  line-height: 165%;
+  max-width: 500px;
+}

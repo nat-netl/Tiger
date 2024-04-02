@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "Brand-Bold";
+  src: url("./../fonts/brand/ua-BRAND-bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Brand-Black";
+  src: url("./../fonts/brand/ua-BRAND-black.otf") format("opentype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Brand-Regular";
+  src: url("./../fonts/brand/ua-BRAND-regular.otf") format("opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito-ExtraBold";
+  src: url("./../fonts/nunito/Nunito-ExtraBold.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Nunito-Bold";
+  src: url("./../fonts/nunito/Nunito-Bold.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Nunito-Regular";
+  src: url("./../fonts/nunito/Nunito-Regular.ttf") format("opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Popins-Bold";
+  src: url("./../fonts/popins/Poppins-Bold.ttf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Popins-Medium";
+  src: url("./../fonts/popins/Poppins-Medium.ttf") format("opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Popins-Regular";
+  src: url("./../fonts/popins/Poppins-Regular.ttf") format("opentype");
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /* width: 100vw; */
+  height: 100%;
+}
+
+html,
+body {
+  font-family: "Brand-Regular";
+  color: #fff;
+  /* max-width: 100vw; */
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 1620px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.owl-stage {
+  display: flex;
+  width: 100% !important;
+}
+
+.owl-dot,
+.owl-prev,
+.owl-next {
+  cursor: pointer;
+}
+
+.gray-bg {
+  background-image: url("./../images/bg_grey.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.lines-bg {
+  background-image: url("./../images/lines-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -4;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/****************************
+						HEADER
+****************************/
+
+.header {
+  background-color: #000;
+}
+
+.header__wrapper {
+  padding: 23px 0;
+  display: flex;
+}
+
+.header__logo {
+  display: flex;
+  width: min-content;
+  margin-right: 51px;
+}
+
+.logo__link {
+  display: flex;
+}
+
+.logo__image {
+  margin-right: 10px;
+}
+
+.logo-text__title {
+  font-size: clamp(32px, 5vw, 72px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.logo__text {
+  width: min-content;
+  font-size: clamp(14px, 5vw, 15px);
+}
+.navigation {
+  width: 100%;
+}
+
+.top__navigation {
+  display: flex;
+  margin-bottom: 29px;
+  font-size: clamp(18px, 5vw, 20px);
+  color: #a5a5a5;
+}
+
+.top-navigation__item:nth-child(1) {
+  margin-right: 89px;
+}
+.top-navigation__item:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+.bottom__navigation {
+  display: flex;
+  justify-content: space-between;
+  font-size: clamp(18px, 5vw, 20px);
+}
+
+/****************************
+						FOOTER
+****************************/
+
+.footer {
+  background-image: url(./../images/footer__bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__wrapper {
+  padding: 87px 0 100px 0;
+}
+
+.footer__links {
+  margin-bottom: 218px;
+  display: flex;
+  gap: 194px;
+}
+
+.links-footer__link {
+  font-size: clamp(16px, 5vw, 20px);
+  padding: 6px 40px;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+
+  border-image-source: -moz-linear-gradient(
+    170deg,
+    rgba(0, 0, 0, 0.04245448179271705) 40%,
+    rgba(105, 29, 21, 1) 100%
+  );
+  border-image-source: -webkit-linear-gradient(
+    170deg,
+    rgba(0, 0, 0, 0.04245448179271705) 40%,
+    rgba(105, 29, 21, 1) 100%
+  );
+  border-image-source: linear-gradient(
+    170deg,
+    rgba(0, 0, 0, 0.04245448179271705) 40%,
+    rgba(105, 29, 21, 1) 100%
+  );
+}
+
+.footer__logo {
+  display: flex;
+}
+
+.logo-footer__link {
+  display: flex;
+}
+.link-footer__image {
+  margin-right: 10px;
+}
+
+.link-logo-footer__title {
+  width: min-content;
+  font-size: clamp(14px, 5vw, 15px);
+}
+
+.title-logo-footer__large {
+  font-size: clamp(32px, 5vw, 72px);
+  font-weight: bold;
+  text-transform: uppercase;
+}

@@ -1,0 +1,200 @@
+.coaching__title {
+  font-size: clamp(22px, 5vw, 48px);
+  color: #a12f23;
+  margin-bottom: 118px;
+}
+
+.coaching__wrapper {
+  padding: 100px 0;
+}
+
+.coaching__main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coaching-main__left {
+  max-width: 548px;
+  width: 100%;
+}
+
+.left-coaching__image {
+  background-image: url("./../../components/coachings/images/tiger.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  background-position: bottom;
+}
+
+.image-coaching__item {
+  position: relative;
+  left: 10px;
+  top: 9px;
+}
+
+.center-coaching__title {
+  font-size: clamp(22px, 5vw, 48px);
+  color: #f2ac31;
+  margin-bottom: 9px;
+}
+
+.center-coaching__merits {
+  display: flex;
+  font-size: clamp(16px, 5vw, 23px);
+  margin-bottom: 50px;
+}
+
+.center-coaching__merit:nth-child(1) {
+  background-image: url("./../../components/coachings/images/bg-rank.png");
+  background-repeat: no-repeat;
+  padding: 2px 45px 6px 12px;
+  background-size: contain;
+}
+
+.center-coaching__merit:nth-child(2) {
+  background-image: url("./../../components/coachings/images/experience.png	");
+  background-repeat: no-repeat;
+  padding: 2px 13px 5px 38px;
+  background-size: contain;
+  position: relative;
+  right: 17px;
+}
+
+.center-coaching__text {
+  max-width: 604px;
+  width: 100%;
+  padding-left: 10px;
+  position: relative;
+  font-size: clamp(14px, 5vw, 18px);
+  font-weight: bold;
+  margin-bottom: 36px;
+}
+
+.center-coaching__text::before {
+  content: "";
+  width: 3px;
+  background-color: rgba(242, 172, 49, 1);
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.achievements-coaching__title {
+  font-size: clamp(22px, 5vw, 34px);
+  color: #e7802d;
+  margin-bottom: 20px;
+}
+
+.diploma-slider {
+  width: 592px;
+  overflow: hidden;
+  margin-bottom: 42px;
+}
+
+.diploma-slider .owl-stage-outer {
+  margin-bottom: 19px;
+}
+
+.diploma-slider .owl-nav {
+  display: none;
+}
+
+.diploma-slider .owl-dots {
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+}
+.diploma-slider .owl-dot {
+  width: 30px;
+  height: 5px;
+  background-color: #494949;
+}
+.diploma-slider .owl-dots .active {
+  background-color: #a60000;
+}
+
+.center-coaching__btn {
+  background-image: url("./../../components/coachings/images/bg-button.svg");
+  background-repeat: no-repeat;
+  padding: 5px 0;
+  font-size: clamp(22px, 5vw, 36px);
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  background-size: 100%;
+}
+
+.coaching-slider .splide__arrow--prev {
+  background-image: url("./../../components/coachings/images/arrow-prev.svg");
+  background-repeat: no-repeat;
+  width: 3em;
+  top: -3em;
+}
+
+.coaching-slider .splide__arrow--next {
+  background-image: url("./../../components/coachings/images/arrow-next.svg");
+  background-repeat: no-repeat;
+  width: 3em;
+  bottom: -3em;
+}
+.coaching-splide__arrow {
+  position: absolute;
+  height: 100%;
+  transform: translate(-50%);
+  left: 50%;
+}
+
+.coaching-slider__item {
+  position: relative;
+  background-image: url("./../../components/coachings/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  cursor: pointer;
+}
+
+.item-coaching-slider__text {
+  font-size: clamp(18px, 5vw, 24px);
+  position: absolute;
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(205, 56, 40, 1) -12%,
+    rgba(242, 172, 49, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  right: 0;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-coaching-slider__bg {
+  content: "";
+  background-image: url("./../../components/coachings/images/coach_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.diploma-slider .splide__pagination {
+  position: static;
+  margin-top: 19px;
+}
+
+.diploma-slider .splide__pagination__page {
+  width: 30px;
+  border-radius: unset;
+  height: 5px;
+  background-color: #494949;
+}
+
+.diploma-slider .splide__pagination__page.is-active {
+  background-color: #a60000;
+  transform: none;
+}

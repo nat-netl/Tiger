@@ -1,0 +1,126 @@
+.month-items {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 1px 22px;
+}
+
+.white-line {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  margin-bottom: 80px;
+}
+
+.item-month-items__table {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.item-month-items__table td,
+.item-month-items__table th {
+  padding: 8.34px 6px;
+}
+
+.calendar-plan__title {
+  background: rgba(216, 59, 42, 0.3);
+  margin-bottom: 30px;
+}
+
+.calendar-plan {
+  padding: 100px 0;
+}
+
+h2.title-calendar-plan__text {
+  font-family: "Brand-Black";
+  font-size: clamp(22px, 3vw, 48px);
+  padding: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.item-month-items__table h2 {
+  font-size: 15px;
+}
+
+.month-items__item {
+  font-size: 11px;
+  text-align: center;
+  padding: 20px 40px;
+  max-width: 345px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.month-items__item h2 {
+  margin-bottom: 25px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.color-gray {
+  color: #808080;
+}
+
+.event {
+  background-color: #f2ac31;
+  border-radius: 0 10px 0 10px;
+}
+
+.event .day {
+  cursor: pointer;
+}
+
+.event-item {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.event-text__container {
+  max-width: 650px;
+  width: 100%;
+  height: 500px;
+  background-color: #000;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.container-event-text__text {
+  font-size: clamp(16px, 3vw, 18px) !important;
+  text-align: left;
+}
+
+.calendar-event-bg {
+  background: rgba(0, 0, 0, 0.3);
+  transition: 0.5s all;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.container-event-text__title {
+  font-family: "Brand-Black" !important;
+  font-size: clamp(22px, 3vw, 48px) !important;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.close-event__text {
+  background-image: url("./../../images/cross.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  right: 20px;
+}

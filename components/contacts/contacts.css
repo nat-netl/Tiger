@@ -1,0 +1,71 @@
+#yandex-map {
+  height: 663px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 0;
+}
+
+.contacts {
+  position: relative;
+}
+
+.yandex-bg {
+  background-image: url("./../../components/contacts/images/contacts_bg.png");
+  background-repeat: no-repeat;
+  left: 0;
+  position: absolute;
+  width: 800px;
+  z-index: 1;
+  height: 100%;
+}
+
+.contacts__wrapper {
+  position: relative;
+  z-index: 1;
+  padding: 100px 0 90px 0;
+  width: max-content;
+}
+
+.contacts__items {
+  width: max-content;
+  font-size: clamp(18px, 5vw, 25px);
+  font-weight: bold;
+}
+
+.icons-contacts__icon {
+  display: flex;
+  gap: 51px;
+  margin-bottom: 56px;
+}
+
+.items-contacts__item:nth-child(1) {
+  margin-bottom: 59px;
+}
+
+.items-contacts__item {
+  gap: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-contacts__title {
+  margin-bottom: 10px;
+  font-size: clamp(20px, 5vw, 30px);
+}
+
+.contacts__main {
+  width: max-content;
+  position: relative;
+  padding-right: 140px;
+}
+
+.contacts__main::after {
+  content: "";
+  height: 100%;
+  background-color: #d33400;
+  width: 2px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

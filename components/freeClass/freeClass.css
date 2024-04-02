@@ -1,0 +1,71 @@
+.free__class {
+  padding-top: 100px;
+  padding-bottom: 132px;
+}
+
+.class__wrapper {
+  position: relative;
+}
+
+.class__content {
+  padding: 34px 15px 51px 47px;
+  background-image: url("./../../components/freeClass/images/bg-row.png");
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+}
+
+.class-content__inside {
+  max-width: 605px;
+  width: 100%;
+}
+
+.class-conten__title {
+  color: #e7e7e7;
+  font-size: clamp(22px, 5vw, 45px);
+  text-transform: uppercase;
+  margin-bottom: 33px;
+}
+
+.class-conten__text {
+  color: #bdbdbd;
+  font-size: clamp(16px, 5vw, 21px);
+  width: 479px;
+}
+
+.class-conten__text span {
+  color: #fff;
+}
+
+.class-conten__text {
+  margin-bottom: 73px;
+}
+
+.class-content__btn {
+  background-image: url("./../../components/freeClass/images/bg-btn.svg");
+  background-repeat: no-repeat;
+  padding: 5px 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: clamp(22px, 5vw, 36px);
+  width: 100%;
+  background-size: 100%;
+  font-weight: bold;
+}
+
+.class-content__bg {
+  content: "";
+  background-image: url("./../../components/freeClass/images/photo.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.class-content__bg-coaches {
+  position: absolute;
+  z-index: 2;
+  bottom: 1.3rem;
+  right: 0;
+}
